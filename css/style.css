@@ -23,3 +23,76 @@ background-color: bisque;
 .contenedorFot{
 background-color: rgb(255, 255, 255);
 }
+
+/* pagina 2 */
+
+.tarjetas{
+    height: 400px;
+   
+    background-color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 40px;
+    color: bisque;
+}
+
+@media screen and (max-width: 1400px){
+    /* pagina 2*/
+    .targets{
+        margin-left: 80px;
+        padding-left: 70px;
+       
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+}
+
+@media screen and (max-width: 1250px){
+    /* pagina 2*/
+    .tarjetas{
+        height: 400px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    /* pagina index */
+    h1{
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    /* pagina index */
+    h1{
+        font-size: 30px;
+    }
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 40px;
+        padding-left: 30px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
+
+@media screen and (max-width: 380px){
+    
+
+    /* pagina2 */
+
+    .targets{
+        margin-left: 15px;
+        padding-left: 10px;
+       
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+}
