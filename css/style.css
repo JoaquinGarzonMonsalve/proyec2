@@ -37,6 +37,23 @@ h2{
     color: bisque;
 }
 
+/* pagina 3 */
+
+.esperas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* pagina4 */
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 @media screen and (max-width: 1400px){
     /* pagina 2*/
     .targets{
@@ -44,6 +61,26 @@ h2{
         padding-left: 70px;
        
         background-color: rgba(0, 0, 0, 0);
+    }
+
+    /* pagina5 */
+
+    /* .rutina1{
+
+        width:680px;
+        height:320px;
+    } */
+
+    /* .rutinas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .rutina2{
+        width: 80%;
+        
+
     }
 
 }
